@@ -1,0 +1,75 @@
+/*STYLE*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*HEADER*/
+h1 {
+    color: #D2872C;
+    font-size: 35px;
+    padding: 20px;
+    margin-left: 20px;
+    float: left;
+    font-weight: bold;
+}
+ul {
+    float: right;
+    margin: 20px;
+    padding-right: 20px;
+}
+li {
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color:#766F68;
+    font-weight: bold;
+    padding: 15px;
+}
+.clear {
+    clear: both;
+}
+
+/*MAIN*/
+#text {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 1;
+}
+h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #766F68;
+    margin-bottom: 30px;
+}
+p {
+    font-size: 20px;
+    color: #766F68;  
+    margin-bottom: 30px;  
+}
+input {
+    width: 250px;
+    height: 50px;
+    background: #D2872C;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+#img {
+    position: absolute;
+    z-index: 0;
+    top: 170px;
+    right: 50px;
+}
+img {
+    width: 850px;
+    height: 450px;
+}
+
+
+
